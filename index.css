@@ -1,3 +1,8 @@
 body {
-  background0color: lightblue;
+  background-color: black;
+  color: lightblue;
+}
+
+.name {
+  text-align: center;
 }
