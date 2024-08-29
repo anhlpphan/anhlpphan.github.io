@@ -1,6 +1,7 @@
 body {
   background-color: #091b31;
   color: #a0c2eccc;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
   flex-direction: column;
 }
 
-#middle {
+#left {
   width: 20%;
   justify-content: center;
   align-items: center;
