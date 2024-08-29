@@ -1,8 +1,40 @@
 body {
-  background-color: black;
-  color: lightblue;
+  background-color: #091b31;
+  color: #a0c2eccc;
 }
 
-.name {
-  text-align: center;
+a {
+  color: #a0c2eccc;
+  text-decoration: none; /* remove underline from links */
+}
+
+.heading,
+.subheading {
+  color: rgba(255, 255, 255, 0.855);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#left,
+#middle,
+#right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#middle {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* chatgpt prompt: how to enlarge the space between icons using flexbox */
+#icons {
+  display: flex;
+  gap: 20px;
 }
