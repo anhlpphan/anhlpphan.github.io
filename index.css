@@ -5,8 +5,8 @@ body {
 }
 
 a {
-  color: #a0c2eccc;
-  text-decoration: none; /* remove underline from links */
+  color: #a0c2ecf8;
+  text-decoration: none;
 }
 
 .heading,
@@ -30,12 +30,28 @@ a {
 
 #left {
   width: 20%;
-  justify-content: center;
   align-items: center;
 }
 
-/* chatgpt prompt: how to enlarge the space between icons using flexbox */
 #icons {
   display: flex;
   gap: 20px;
+}
+
+/* W3Schools: Use a media query to add a breakpoint at 800px: */
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #left,
+  #middle,
+  #right {
+    width: 85%;
+  }
+}
+
+.hover-effect:hover {
+  text-decoration: underline;
 }
