@@ -1,17 +1,17 @@
 body {
   background-color: #091b31;
-  color: #a0c2eccc;
+  color: #a7c8f1f1;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 a {
-  color: #a0c2ecf8;
+  color: #a7c8f1f1;
   text-decoration: none;
 }
 
 .heading,
 .subheading {
-  color: rgba(255, 255, 255, 0.855);
+  color: white;
 }
 
 .container {
@@ -50,5 +50,18 @@ a {
 }
 
 .hover-effect:hover {
-  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+.hover-effect:hover h3 {
+  color: #a7c8f1f1;
+}
+
+ul#tech {
+  list-style: "👩🏻‍💻   ";
+}
+
+ul#resume {
+  list-style: "📄  ";
 }
