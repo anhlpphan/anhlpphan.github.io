@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+}
+
 .heading,
 .subheading {
   color: white;
@@ -49,12 +53,7 @@ a {
   }
 }
 
-.hover-effect:hover {
-  color: white;
-  cursor: pointer;
-}
-
-.hover-effect:hover h3 {
+h3:hover {
   color: #a7c8f1f1;
 }
 
